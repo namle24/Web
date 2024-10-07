@@ -226,7 +226,6 @@
 /*  Header Notification */
 .header__notify {
     position: absolute;
-    z-index: 1;
     top: 118%;
     right: 0;
     width: 404px;
@@ -552,10 +551,12 @@
 }
 
 .header__cart-list-item {
+    position: relative;
     padding-left: 0;
     list-style: none;
     height: 46vh;
     overflow-y: auto;
+    z-index: 3;
 }
 
 .header__cart-item {
@@ -862,7 +863,9 @@
 /* App Container */
 
 .app__container {
+    position: relative;
     background-color: #f5f5f5;
+    z-index: 0;
 }
 
 .app_content {

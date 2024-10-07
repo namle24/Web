@@ -172,6 +172,7 @@ html {
 }
 
 .select-input__label {
+    display: flex;
     font-size: 1.4rem;
 }
 
@@ -198,6 +199,7 @@ html {
     list-style: none;
     display: none;
 }
+
 
 .select-input__link  {
     font-size: 1.4rem;
